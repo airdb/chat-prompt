@@ -84,8 +84,8 @@ Docker Compose 版本需要 V2
 ```bash
 git clone https://github.com/airdb/chat-prompt
 cd chat-prompt
-docker-compose -f docker-compose/docker-compose.yml build
-docker-compose -f docker-compose/docker-compose.yml up -d
+docker compose -f docker-compose/docker-compose.yml build
+docker compose -f docker-compose/docker-compose.yml up -d
 ```
 
 浏览器打开 `http://ip:8500`
